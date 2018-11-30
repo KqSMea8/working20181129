@@ -1,0 +1,109 @@
+//主页面样式
+.home
+    .left-link
+        width 220px
+        position absolute
+        top 0
+        left 0
+        bottom 0
+        background-color #F1F5FA
+        
+        .left-menu
+            border-bottom: 1px #eaeff6 solid;
+        
+        .collapse-tshift
+            font-size 23px;
+            font-weight 400;
+            padding 12px 40px
+            background #fff
+            border-bottom 1px solid #efefef
+            .router-link-acitve,a
+                color #333
+        .collapse-box
+
+            background-color #ffffff
+
+            .collapse-title
+                font-size 14px
+                line-height 42px
+                margin 0
+                cursor pointer
+                padding-left 50px
+                border-bottom 1px solid #F1F5FA
+                position relative
+                color #333
+                
+            .color-active
+                color $color
+                font-weight bold
+
+            .collapse-title-active
+                background-color #fff
+                color $color
+                border-left 5px solid $color
+                position absolute
+                top 0px
+                left 0px
+                height 43px
+                display inline-block
+
+            .collapse-links
+                margin 0
+                text-indent 20px
+                font-size 14px
+                cursor pointer
+                transition height 1s linear
+                overflow hidden
+                border-right 1px solid #efefef
+
+                li
+                    // line-height 30px
+                    padding 5px 0
+                    // height 40px
+                    box-sizing border-box
+                    border-bottom 1px solid #F1F5FA
+                    padding-left 24px
+                    a
+                        color #666
+                        &:hover
+                            color $color
+                        &.user_selected
+                            color $color
+                            font-weight bold
+                    >a
+                        padding 10px 0
+                        width 90%
+                        display inline-block
+
+    .right-view
+        min-height 569px
+        margin-left 220px;
+        background-color #ffffff;
+        padding 50px;
+        padding-top 20px;
+
+        .breadcrumb
+            font-size 13px
+
+            .breadcrumb-item
+                float left
+
+                .breadcrumb-link
+                    transition color .15s linear
+                    color #475669
+                    &:hover
+                        color #08c
+
+                .current
+                    cursor text
+                    color #c0ccda
+
+                span:last-child
+                    margin 0 8px
+                    color #c0ccda
+
+        .view-area
+            height 100%
+            
+    h3
+        border-right 1px solid #efefef

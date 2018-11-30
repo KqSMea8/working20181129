@@ -1,0 +1,25 @@
+{
+    "data": {
+        "content":  [
+        	{
+        		"id":1,
+        		"name":"test",
+        		"version":"V.1.1.1",
+        		"creatTime":"2018.5.16 12:00:00",
+        		"versionArr":[
+        			{
+        				"id":1,
+        				"name":"V.1.1.1"
+        			}
+        		]
+        	},
+        	{
+        		"id":2,
+        		"name":"test2222222",
+        		"version":"V.1.1.2",
+        		"creatTime":"2018.5.16 12:00:00",
+        		"versionArr":[]
+        	}
+        ]
+    }
+}

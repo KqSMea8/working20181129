@@ -1,0 +1,62 @@
+
+/*弹窗样式*/
+div.dialog_head,div.modifyPerson_head{
+    border-bottom: none; 
+    background: rgba(228, 228, 228, 0.69);
+    border-radius: 4px;
+}
+    
+    
+div.dialog_head{
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+div.dialog_head span{
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+}
+div.dialog_head .al-close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+    
+
+div.dialog_foot{
+    height: 46px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+
+}
+div.dialog_foot button{
+    min-width: 77px;
+    margin: 0px 14px;
+    padding: 6px 19px;
+    border-radius: 3px;
+    border: none;
+    color:#fff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.dialog_foot .btn-gray{
+    background-color:#CCCCCC;
+}
+div.dialog_foot .btn-gray:hover{
+    border:none;
+}
+div.dialog_foot .btn-gray:active{
+    border:none;
+}
+
+div.dialog_foot .btn-blue{
+    background-color:#3399FF;
+}
+
+.dialog_body{
+    min-width:360px;
+    min-height: 60px;
+}

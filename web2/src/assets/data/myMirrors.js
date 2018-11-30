@@ -1,0 +1,37 @@
+export default [{
+    mirrorName:'名称1',
+    mirrorVersion:'版本1',
+    updateTime:2018,
+    d:'isme',
+    progessList:[
+        {id:1,title:'上传文件',state:0},
+        {id:2,title:'拉取基础镜像',state:0},
+        {id:3,title:'生成新的容器镜像',state:0},
+        {id:4,title:'创建成功',state:0}
+    ]
+},
+{
+    mirrorName:'名称2',
+    mirrorVersion:'版本2',
+    updateTime:2018,
+    d:'admin',
+    progessList:[
+        {id:1,title:'上传文件',state:0},
+        {id:2,title:'拉取基础镜像',state:0},
+        {id:3,title:'生成新的容器镜像',state:0},
+        {id:4,title:'创建成功',state:0}
+    ]
+},
+{
+    mirrorName:'名称3',
+    mirrorVersion:'版本2',
+    updateTime:2018,
+    d:'xsbs',
+    progessList:[
+        {id:1,title:'上传文件',state:0},
+        {id:2,title:'拉取基础镜像',state:0},
+        {id:3,title:'生成新的容器镜像',state:0},
+        {id:4,title:'创建成功',state:0}
+    ]
+}
+]

@@ -1,0 +1,82 @@
+{
+    "id": "45632kadb45",
+    "mirrorArrData":[
+        {
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        },{
+            "src":"/static/images/mirror.jpg",
+            "name":"mysql"
+        }   
+    ],
+    "recordMain":[
+        {
+            "main": "成功创建了某应用",
+            "time": "2018-04-30 11:30"
+        },{
+            "main": "成功创建了某应用",
+            "time": "2018-04-30 11:30"
+        },{
+            "main": "成功创建了某应用",
+            "time": "2018-04-30 11:30"
+        },{
+            "main": "成功创建了某应用",
+            "time": "2018-04-30 11:30"
+        }
+    ],
+    "resourceRatio":[
+        {
+            "name":"CPU核",
+            "number":40,
+            "total":"40/100个",
+            "ratio": "40%",
+            "totalNumber":100
+        },{
+            "name":"内存",
+            "number":1024,
+            "total":"1024/2088兆",
+            "ratio": "50%",
+            "totalNumber":2088
+        },{
+            "name":"本地磁盘",
+            "number":1024,
+            "total":"1024/2088G",
+            "ratio": "50%",
+            "totalNumber":2088
+        }
+    ],
+    "applicationValue": [{
+        "name": "进行中",
+        "value": 35
+    },{
+        "name": "异常",
+        "value": 8
+    },{
+        "name": "停止",
+        "value": 10
+    }]
+}
